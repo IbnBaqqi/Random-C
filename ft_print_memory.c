@@ -11,7 +11,7 @@ void *ft_print_memory(void *addr, unsigned int size);
 
 int main()
 {
-	char str[] = "Abdulbaki Salaudeen will improve on his deen and life";
+	char str[] = "Code to print memory, let's see if it works";
 	ft_print_memory(str, ft_strlen(str));
 	return 0;
 }
