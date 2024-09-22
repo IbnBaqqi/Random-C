@@ -69,7 +69,7 @@ void ft_hex_address(unsigned int str)
 
 void ft_hex_content(unsigned char *str, unsigned int size)
 {
-	int i = 0;
+	unsigned int i = 0;
 	while(i < 16)
 	{
 		if(i < size)
@@ -88,7 +88,7 @@ void ft_hex_content(unsigned char *str, unsigned int size)
 
 void ft_print_chars(unsigned char *str, unsigned int size)
 {
-	int i = 0;
+	unsigned int i = 0;
 	while(i < size)
 	{
 		if(str[i] >= 32 && str[i] <= 126)
